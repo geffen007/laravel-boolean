@@ -1,0 +1,40 @@
+.g-topbar{
+    height: 40px;
+    background-color: $b-green;
+    padding: 5px 0;
+    .g-notification{
+        height: 100%;
+        text-transform: uppercase;
+        img{
+            height: 100%;
+
+        }
+        span{
+            color: $text;
+        }
+        .g-date{
+            color: white;
+        }
+    }
+
+}
+
+nav{
+    height: 100px;
+    font-size: 18px;
+    .logo{
+        height:32px;
+    }
+    li{
+        margin-right: 40px;
+        a{
+            color: $text;
+        }
+        a:hover{
+            color: $text;
+            text-decoration: underline;
+        }
+    }
+
+
+}

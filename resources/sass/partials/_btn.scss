@@ -1,0 +1,16 @@
+.button1{
+    text-transform: capitalize;
+    color: $b-green !important;
+    background: transparent;
+    border: 2px solid $b-green;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.button1:hover{
+    border: 2px solid $b-green;
+    background: $b-green;
+    color: #fff !important;
+    text-decoration: none;
+}

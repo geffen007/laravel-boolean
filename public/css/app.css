@@ -10899,6 +10899,78 @@ a.text-dark:focus {
   }
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Khula", sans-serif;
+}
+
+.g-topbar {
+  height: 40px;
+  background-color: #0cd977;
+  padding: 5px 0;
+}
+
+.g-topbar .g-notification {
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.g-topbar .g-notification img {
+  height: 100%;
+}
+
+.g-topbar .g-notification span {
+  color: #001533;
+}
+
+.g-topbar .g-notification .g-date {
+  color: white;
+}
+
+nav {
+  height: 100px;
+  font-size: 18px;
+}
+
+nav .logo {
+  height: 32px;
+}
+
+nav li {
+  margin-right: 40px;
+}
+
+nav li a {
+  color: #001533;
+}
+
+nav li a:hover {
+  color: #001533;
+  text-decoration: underline;
+}
+
+.button1 {
+  text-transform: capitalize;
+  color: #0cd977 !important;
+  background: transparent;
+  border: 2px solid #0cd977;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.button1:hover {
+  border: 2px solid #0cd977;
+  background: #0cd977;
+  color: #fff !important;
+  text-decoration: none;
+}
+
 .g-card {
   width: 370px;
   padding: 20px;
@@ -10927,7 +10999,7 @@ a.text-dark:focus {
 }
 
 .g-card .g-card-top .g-card-hire {
-  color: #001632;
+  color: #001533;
   font-size: 18px;
   font-weight: bold;
 }
