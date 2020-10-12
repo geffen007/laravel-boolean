@@ -10909,6 +10909,38 @@ body {
   font-family: "Khula", sans-serif;
 }
 
+.g-section {
+  padding: 80px 0;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.bcg-white {
+  background-color: white;
+}
+
+.bcg-blu {
+  background-color: #001632;
+}
+
+ul {
+  list-style: none;
+}
+
+ul img {
+  display: inline-block;
+  margin-right: 8px;
+}
+
 .g-topbar {
   height: 40px;
   background-color: #0cd977;
@@ -10933,6 +10965,7 @@ body {
 }
 
 nav {
+  background: #fff;
   height: 100px;
   font-size: 18px;
 }
@@ -11002,5 +11035,29 @@ nav li a:hover {
   color: #001533;
   font-size: 18px;
   font-weight: bold;
+}
+
+.section1 .g-jumbo {
+  background-color: white;
+}
+
+.section1 .g-jumbo::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.section1 .g-jumbo .g-left {
+  flex-direction: column;
+  justify-content: space-around;
+  float: left;
+}
+
+.section1 .g-jumbo .g-left h1 {
+  color: #0cd977;
+}
+
+.section1 .g-jumbo .g-right {
+  float: left;
 }
 

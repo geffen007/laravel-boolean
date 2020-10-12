@@ -1,0 +1,17 @@
+.section1{
+    .g-jumbo{
+        background-color: white;
+        @include clearfix;
+        .g-left{
+            flex-direction: column;
+            justify-content: space-around;
+            float:left;
+            h1{
+                color: $b-green;
+            }
+        }
+        .g-right{
+            float:left;
+        }
+    }
+}
