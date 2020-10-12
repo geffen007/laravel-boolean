@@ -1,0 +1,37 @@
+.g-card{
+    width: 370px;
+    padding: 20px;
+    margin: 22px;
+    border-radius: 20px;
+
+
+    .g-card-top{
+        @include clearfix;
+        .g-card-img{
+            border-radius: 100%;
+            width: 100px;
+            float: left;
+            margin-right: 22px;
+        }
+
+        .g-card-name{
+            text-transform: uppercase;
+            color: #0cd977;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .g-card-hire{
+            color: #001632;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+    .g-card-bottom{
+        .g-card-description{
+
+        }
+    }
+
+
+
+}

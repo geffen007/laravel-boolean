@@ -5,12 +5,16 @@
 @section('content')
     <div class="card-group">
         @foreach ($data as $student)
-            <div class="card">
-                <img src="{{$student['img']}}" class="card-img-top" alt="{{$student['nome']}}">
-                <div class="card-body">
-                    <h5 class="card-title">{{$student['nome']}}</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="g-card shadow">
+
+                <div class="g-card-top">
+                    <img src="{{$student['img']}}" class="g-card-img" alt="{{$student['nome']}}">
+                    <h5 class="g-card-name">{{$student['nome']}} ({{$student['anni']}} Anni)</h5>
+                    <p class="g-card-hire">Assunto da {{$student['azienda']}}</p>
+                </div>
+                <div class="g-card-bottom">
+                    <p class="g-card-description">{{$student['descrizione']}}</p>
+
                 </div>
             </div>
         @endforeach
