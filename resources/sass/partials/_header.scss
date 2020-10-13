@@ -27,6 +27,9 @@ nav{
         height:32px;
     }
     li{
+        .g-active{
+            text-decoration: underline;
+        }
         margin-right: 40px;
         a{
             color: $text;

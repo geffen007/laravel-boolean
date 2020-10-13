@@ -10978,6 +10978,10 @@ nav li {
   margin-right: 40px;
 }
 
+nav li .g-active {
+  text-decoration: underline;
+}
+
 nav li a {
   color: #001533;
 }
@@ -11004,8 +11008,14 @@ nav li a:hover {
   text-decoration: none;
 }
 
+.card-group {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
 .g-card {
-  width: 370px;
+  min-width: 370px;
   padding: 20px;
   margin: 22px;
   border-radius: 20px;

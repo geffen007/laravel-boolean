@@ -14,14 +14,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto d-flex align-items-center">
-                <li class="nav-item active">
-                <a class="" href="{{route('StaticPage.home')}}">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                <a class="" href="{{route('StaticPage.chisiamo')}}">chi siamo</a>
+                <a class="{{(url()->current()==route('StaticPage.home')? 'g-active' : '')}}" href="{{route('StaticPage.home')}}">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                <a class="" href="{{route('Student.studenti')}}">studenti</a>
+                <li class="nav-item ">
+                <a class="{{(url()->current()==route('StaticPage.chisiamo')? 'g-active' : '')}}" href="{{route('StaticPage.chisiamo')}}">chi siamo</a>
+                </li>
+                <li class="nav-item ">
+                <a class="{{(url()->current()==route('Student.studenti')? 'g-active' : '')}}" href="{{route('Student.studenti')}}">studenti</a>
                 </li>
                 <button type="button" class="button1">Candidati Ora</button>
             </ul>

@@ -4,18 +4,11 @@
 
 @section('content')
     <div class="container">
-
-
         <div class="card-group">
-            @foreach ($data as $key => $student)
                 <div class="g-card shadow">
-
                     <div class="g-card-top">
                         <img src="{{$student['img']}}" class="g-card-img" alt="{{$student['nome']}}">
-                        <a href="{{route('Student.show', ['id' => $key])}}">
-                            <h5 class="g-card-name">{{$student['nome']}} ({{$student['anni']}} Anni)</h5>
-                        </a>
-
+                        <h5 class="g-card-name">{{$student['nome']}} ({{$student['anni']}} Anni)</h5>
                         <p class="g-card-hire">Assunt{{ ($student['genere'] == 'F') ? 'a' : 'o'}} da {{$student['azienda']}}</p>
                     </div>
                     <div class="g-card-bottom">
@@ -23,7 +16,6 @@
 
                     </div>
                 </div>
-            @endforeach
         </div>
     </div>
 @endsection
