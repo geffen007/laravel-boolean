@@ -1,17 +1,18 @@
 .section1{
     .g-jumbo{
+        display: flex;
         background-color: white;
         @include clearfix;
         .g-left{
+            display: flex;
             flex-direction: column;
             justify-content: space-around;
-            float:left;
             h1{
                 color: $b-green;
             }
         }
         .g-right{
-            float:left;
+
         }
     }
 }

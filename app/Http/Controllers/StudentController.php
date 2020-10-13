@@ -23,7 +23,7 @@ class StudentController extends Controller
             abort(404);
         }else{
             $student = $this->students[$id];
-            return view('studenti.show', compact('student'));
+            return view('carriere.show', compact('student'));
         }
 
 

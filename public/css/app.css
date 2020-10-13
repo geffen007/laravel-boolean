@@ -10965,7 +10965,12 @@ ul img {
 }
 
 nav {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   background: #fff;
+  z-index: 9999;
   height: 100px;
   font-size: 18px;
 }
@@ -11021,6 +11026,12 @@ nav li a:hover {
   border-radius: 20px;
 }
 
+.g-card .g-card-big-img {
+  border-radius: 100%;
+  width: 300px;
+  padding: 50px;
+}
+
 .g-card .g-card-top::after {
   display: block;
   clear: both;
@@ -11048,6 +11059,7 @@ nav li a:hover {
 }
 
 .section1 .g-jumbo {
+  display: flex;
   background-color: white;
 }
 
@@ -11058,16 +11070,12 @@ nav li a:hover {
 }
 
 .section1 .g-jumbo .g-left {
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
-  float: left;
 }
 
 .section1 .g-jumbo .g-left h1 {
   color: #0cd977;
-}
-
-.section1 .g-jumbo .g-right {
-  float: left;
 }
 
