@@ -20,16 +20,12 @@
 
 
 nav{
-
-
     width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
+    padding: 15px 0 !important;
     background: #fff;
     z-index: 9999;
-
-    height: 100px;
+    background: #fff;
     font-size: 18px;
     .logo{
         height:32px;
